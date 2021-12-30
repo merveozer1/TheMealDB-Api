@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom"
-import NotFound from './NotFound';
+
 
 
 function SearchProduct(props) {
@@ -13,7 +13,7 @@ function SearchProduct(props) {
   const [urlQ, setUrlQ] = useState(urlParams.get('q'))
 
   const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true)
+  const setLoading = useState(true)
   function formHandler(event) {
     event.preventDefault();
     setUrlQ(event.target.qInput.value)
@@ -33,7 +33,7 @@ function SearchProduct(props) {
         })
         .catch((error) => console.error('Error:', error))
     }, 500)
-  }, [])
+  }, [setLoading])
 
   return <>
     <h1>Search Product</h1>
