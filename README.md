@@ -1,3 +1,11 @@
+This project has been prepared using an API that does not require authentication. In the project, 2 different APIs were preferred in search meal and categories options. Within the project; There are home page, about, categories, category detail and search meal pages. Bootstrap is used for page layout and page responsiveness.
+
+
+You can access the API used from the link below.
+
+https://www.themealdb.com/api.php
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
