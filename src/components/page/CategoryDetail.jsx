@@ -15,7 +15,7 @@ function CategoryDetail(props) {
                 console.log(json)
             })
             .catch((error) => console.error('Error:', error))
-    }, [])
+    }, [params.idCategory])
 
     return <>
         <h1>Detail</h1>

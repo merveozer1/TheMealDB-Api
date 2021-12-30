@@ -2,7 +2,7 @@ import Nav from "./components/base/Nav";
 import Footer from "./components/base/Footer";
 import { Routes, Route } from 'react-router-dom';
 import routes from "./routes"
-import SearchProduct from './components/page/SearchProduct';
+
 
 
 function App() {

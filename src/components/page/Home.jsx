@@ -10,7 +10,7 @@ function Home(props) {
   const [urlQ, setUrlQ] = useState(urlParams.get('q'))
 
   const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true)
+  const setLoading = useState(true)
   function formHandler(event) {
     event.preventDefault();
     setUrlQ(event.target.qInput.value)
@@ -30,7 +30,7 @@ function Home(props) {
         })
         .catch((error) => console.error('Error:', error))
     }, 500)
-  }, [])
+  }, [setLoading])
 
   return <>
     <h1>Home</h1>

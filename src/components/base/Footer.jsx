@@ -5,7 +5,7 @@ function Footer(props) {
         <div className="container">
           <div className="row">
             <div className="col-sm-3">
-              © 2021 TheMealDB <br />Proudly built in the UK <img src="/images/icons/flags/big/16/gb.png" />
+              © 2021 TheMealDB <br />Proudly built in the UK 
             </div>
             <div className="col-sm-6">
               <center>

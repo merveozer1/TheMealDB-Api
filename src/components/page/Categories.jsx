@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Categories(props) {
     const [data, setData] = useState([]);
-    const [loading, setLoading] = useState(true)
+    const setLoading = useState(true)
 
     useEffect(() => {
         setTimeout(() => {
@@ -18,7 +18,7 @@ function Categories(props) {
                 })
                 .catch((error) => console.error('Error:', error))
         }, 500)
-    }, [])
+    }, [setLoading])
 
     return <>
         <h1>Categories</h1>
